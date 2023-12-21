@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap");
+@import url("https://fonts.cdnfonts.com/css/ibm-plex-mono");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #200000;
+}
+
+#comand {
+  color: rgb(129, 129, 215);
+}
+
+#write {
+  color: #e8a4d9;
+}
+
+.title {
+  font-size: 2vmin;
+  font-family: "IBM Plex Mono", sans-serif;
+  height: 200px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e4bb68;
+}
+
+.string {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.closure::after {
+  content: "";
+  position: absolute;
+  height: 25vmin;
+  width: 40vmin;
+
+  transform: translate(-45vmin, -24.5vmin);
+}
+
+.closure::before {
+  content: "";
+  position: absolute;
+  height: 25vmin;
+  width: 40vmin;
+
+  transform: translate(-40vmin, 5vmin);
+}
+
+.ab {
+  color: #fa8231;
+}
+.ac {
+  color: white;
+}
+.ad {
+  color: #61a968;
+}
+.ae {
+  color: #a9b0bd;
+}
+
+/* Animacao do computador */
+
+#text {
+  padding: 5px;
+  font-size: 12pt;
+  top: 80px;
+  left: 40px;
+  width: 270px;
+  color: white;
+  height: 65px;
+  -webkit-transform: skew(-10deg, 10deg);
+  transform: skew(-10deg, 10deg);
+  font-family: monospace;
+}
+#container div {
+  opacity: 0;
+  transition: opacity 0.5s; /* Suaviza a transição da opacidade */
+}
+
+#computer {
+  border-width: 0;
+  top: 0px;
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+  transform: rotate(-7deg);
+  box-shadow: 0px 2px 2px 0px black;
+
+  > div {
+    position: absolute;
+  }
+
+  #front {
+    width: 100px;
+    top: 54px;
+    border-radius: 4px 4px 4px 2px;
+    width: 300px;
+    height: 300px;
+    -webkit-transform: skew(-10deg, 10deg);
+    transform: skew(-5deg, deg);
+    background-color: #ccc092;
+    box-shadow: 2px 3px 7px 0.7px rgba(0, 0, 0, 0.1);
+  }
+
+  #screen {
+    top: 70px;
+    left: 20px;
+    width: 270px;
+    height: 200px;
+    border-radius: 6px 8px 8px 6px;
+    box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, 0.2);
+    background-color: black;
+    -webkit-transform: skew(-10deg, 10deg);
+    transform: skew(-10deg, 10deg);
+  }
+
+  #side {
+    height: 300px;
+    width: 90px;
+    background-color: #4d4d4d;
+    top: 54px;
+    left: 300px;
+    -webkit-transform: skew(-10deg, -30deg);
+    transform: skew(-10deg, -30deg);
+    box-shadow: 2px 1px 7px 0.7px rgba(0, 0, 0, 0.4);
+  }
+
+  #top {
+    background-color: #857750;
+    width: 300px;
+    height: 56px;
+    left: 72px;
+    border-radius: 1px 5px 1px 5px;
+    -webkit-transform: skew(-60deg, 10deg);
+    transform: skew(-60deg, 10deg);
+  }
+
+  #button {
+    -webkit-transform: skew(-10deg, 10deg);
+    transform: skew(-10deg, 10deg);
+    background-color: black;
+    height: 10px;
+    width: 40px;
+    top: 280px;
+    padding-left: 70px;
+    margin-top: 30px;
+    margin-left: 140px;
+    box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  #button2 {
+    -webkit-transform: skew(-10deg, 10deg);
+    transform: skew(-10deg, 10deg);
+    background-color: black;
+    border-radius: 10px;
+    height: 12px;
+    width: 15px;
+    top: 280px;
+  }
+
+  #button3 {
+    -webkit-transform: skew(-10deg, 10deg);
+    transform: skew(-10deg, 10deg);
+    background-color: black;
+    box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.2);
+    height: 18px;
+    width: 4px;
+    top: 280px;
+    padding-left: 42px;
+    margin-top: 34px;
+    margin-left: 205px;
+  }
+
+  #adesivo {
+    -webkit-transform: skew(-10deg, 10deg);
+    transform: skew(-10deg, 10deg);
+    border-radius: 10px;
+    height: 10px;
+    width: 25px;
+    top: 280px;
+    margin-left: 25px;
+    left: 1px;
+  }
+
+  #adesivo > img {
+    width: 45px;
+    -webkit-transform: skew(15deg, 22deg);
+    transform: skew(-1deg, 3deg);
+    opacity: 70%;
+  }
+}
