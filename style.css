@@ -85,6 +85,10 @@ body {
   transition: opacity 0.5s; /* Suaviza a transição da opacidade */
 }
 
+#adjustment {
+  padding: 5%;
+}
+
 #computer {
   border-width: 0;
   top: 0px;
